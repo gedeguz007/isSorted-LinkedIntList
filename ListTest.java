@@ -20,6 +20,16 @@ public class ListTest {
 	     System.out.println(list);
 	     //System.out.println(list.size());
 	     System.out.print("List sorted?" + " ");
-	     System.out.println(list.isSorted()); 	        
+	     System.out.println(list.isSorted());
+	     System.out.println(" ");
+	     
+	     list.add(7);
+	     System.out.println(list);
+	     list.remove(1);
+	     System.out.println(list);
+	     System.out.print("List sorted?" + " ");
+	     System.out.println(list.isSorted());
+	        
+	        
 	 }
 }
